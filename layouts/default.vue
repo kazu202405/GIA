@@ -19,18 +19,18 @@
                 <a href="#services" class="nav-link">サービス</a>
                 <a href="#about" class="nav-link">私たちについて</a>
                 <a href="#works" class="nav-link">実績</a>
-                <a href="#contact" class="nav-link">お問い合わせ</a>
+                <!-- <a href="#contact" class="nav-link">お問い合わせ</a> -->
               </nav>
             </v-col>
             <v-col cols="auto">
               <!-- CTAボタン -->
-              <v-btn
+              <!-- <v-btn
                 variant="flat"
                 class="cta-button"
                 @click="scrollToContact"
               >
                 無料相談する
-              </v-btn>
+              </v-btn> -->
             </v-col>
           </v-row>
         </v-container>
@@ -217,7 +217,8 @@ const scrollToContact = () => {
 
 /* フッター */
 .gia-footer {
-  background: #1e293b;
+  /* background: #1e293b; */
+  background: #0f1f33;
   color: white;
   padding: 60px 0 24px;
   margin-top: 0px;

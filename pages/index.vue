@@ -18,7 +18,7 @@
             
             <!-- メインコピー ここを追加 -->
             <h1 class="hero-title">
-              人の力を引き出し、<br class="d-md-none">成果へつなぐ
+              人材の能力を引き出し、<br class="d-md-none">成果へつなぐ
             </h1>
             
             <!-- サブコピー ここを追加 -->
@@ -28,7 +28,7 @@
             </p>
             
             <!-- Primary CTA ここを追加 -->
-            <v-btn
+            <!-- <v-btn
               size="x-large"
               class="hero-cta mt-8 px-12"
               color="#1e40af"
@@ -36,7 +36,7 @@
             >
               無料相談する
               <v-icon end>mdi-arrow-right</v-icon>
-            </v-btn>
+            </v-btn> -->
 
             
           </v-col>
@@ -263,19 +263,19 @@
     </section>
 
     <!-- ===== Contact セクション ===== -->
-    <section class="contact-section" id="contact">
+    <!-- <section class="contact-section" id="contact">
       <v-container>
         <v-row justify="center" align="center" style="min-height: 70vh">
           <v-col cols="12" md="8" lg="6" class="text-center">
             
-            <!-- CTA見出し ここを追加 -->
+
             <h2 class="cta-title">まずは無料相談から</h2>
             <p class="cta-subtitle">
               お客様のビジネス課題をお聞かせください。<br>
               最適なソリューションをご提案いたします。
             </p>
             
-            <!-- コンタクトフォーム ここを追加 -->
+
             <v-card class="contact-form mt-10" elevation="0" rounded="lg">
               <v-card-text class="pa-8">
                 <v-form @submit.prevent="submitForm">
@@ -305,7 +305,6 @@
                     class="mb-6"
                   />
                   
-                  <!-- 送信ボタン ここを追加 -->
                   <v-btn
                     type="submit"
                     size="x-large"
@@ -324,13 +323,14 @@
           </v-col>
         </v-row>
       </v-container>
-    </section>
+    </section> -->
 
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
+useHead({ title: '株式会社Global Information Academy' })
 
 // レイアウト指定 ここを追加
 definePageMeta({
