@@ -29,22 +29,22 @@
 以下の箇所に実際の画像を配置してください：
 
 1. **Hero背景画像**
-   - ファイル: `/public/images/hero-bg.jpg`
+   - ファイル: `//images/hero-bg.jpg`
    - 推奨サイズ: 1920x1080px以上
    - 場所: `pages/index.vue` の `.hero-bg` セクション
 
 2. **サービス画像（4枚）**
-   - ファイル: `/public/images/service-1.jpg` 〜 `service-4.jpg`
+   - ファイル: `//images/service-1.jpg` 〜 `service-4.jpg`
    - 推奨サイズ: 600x400px
    - 場所: 各サービスカードの `.image-placeholder`
 
 3. **About画像**
-   - ファイル: `/public/images/about.jpg`
+   - ファイル: `//images/about.jpg`
    - 推奨サイズ: 800x600px
    - 場所: `.large-image-placeholder`
 
 4. **実績画像（6枚）**
-   - ファイル: `/public/images/work-1.jpg` 〜 `work-6.jpg`
+   - ファイル: `//images/work-1.jpg` 〜 `work-6.jpg`
    - 推奨サイズ: 600x450px
    - 場所: 各ワークカードの `.work-placeholder`
 
