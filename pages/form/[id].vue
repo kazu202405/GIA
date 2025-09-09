@@ -100,11 +100,6 @@
 import { ref, watch , onMounted, reactive} from 'vue'
 import { useRoute } from 'vue-router'
 import debounce from 'lodash/debounce'
-import FormStep1 from '~/components/form/FormStep1.vue'
-import FormStep2 from '~/components/form/FormStep2.vue'
-import FormStep3 from '~/components/form/FormStep3.vue'
-import FormStep4 from '~/components/form/FormStep4.vue'
-import FormStep5 from '~/components/form/FormStep5.vue'
 import { useSnackbar } from '@/composables/useSnackbar'
 import { useNuxtApp } from '#app'
 
