@@ -1,0 +1,13 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "baseUrl": ".", // 追加
+    "paths": { // 追加
+    "@/*": ["./*"],
+    "@/types": ["src/types/index"]
+    }
+  }
+}

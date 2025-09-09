@@ -1,0 +1,42 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "build-fonts": "node scripts/build-fonts.cjs",
+    "start": "node .output/server/index.mjs"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@nuxtjs/supabase": "^1.4.5",
+    "@supabase/supabase-js": "^2.47.10",
+    "axios": "^1.7.7",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.11.13",
+    "dayjs-nuxt": "^2.1.11",
+    "html2canvas": "^1.4.1",
+    "json-2-csv": "^5.5.7",
+    "lodash-es": "^4.17.21",
+    "marked": "^15.0.12",
+    "nuxt": "^3.13.2",
+    "papaparse": "^5.4.1",
+    "pinia": "^2.3.1",
+    "sass": "^1.80.4",
+    "uuid": "^11.1.0",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vuetify": "^3.7.0-beta.1",
+    "xlsx": "^0.18.5",
+    "xslx": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.1",
+    "ts-node": "^10.9.2"
+  }
+}

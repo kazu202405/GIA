@@ -1,0 +1,11 @@
+[33ma49edbc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{0}: reset: moving to HEAD@{1}
+[33m50049ed[m HEAD@{1}: reset: moving to 50049ed
+[33ma49edbc[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m HEAD@{2}: reset: moving to a49edbc75034c59073fed0e638eadbd8b93583ce
+[33m4b964e3[m HEAD@{3}: commit: 初回コミットいけたかな？
+[33m552522b[m HEAD@{4}: commit (merge): Merge branch 'master' of https://github.com/kazuki19950107/tax_declaration
+[33m9ba31ae[m HEAD@{5}: commit: 初回コミット
+[33m50049ed[m HEAD@{6}: commit: ドラフト確認のボタン完了
+[33m3c00d02[m HEAD@{7}: reset: moving to origin/master
+[33mac7dd3d[m HEAD@{8}: commit: プロンプトの渡し方改善
+[33m4f7fa4a[m HEAD@{9}: commit: OCR,GPTによる自動入力完了
+[33m50e48a4[m HEAD@{10}: clone: from https://github.com/kazuki19950107/tax_declaration
