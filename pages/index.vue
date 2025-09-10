@@ -18,7 +18,7 @@
             
             <!-- メインコピー ここを追加 -->
             <h1 class="hero-title">
-              人材の能力を引き出し、<br class="d-md-none">成果へつなぐ
+              人の力を引き出し、<br class="d-md-none">成果へつなぐ
             </h1>
             
             <!-- サブコピー ここを追加 -->
@@ -220,7 +220,7 @@
 
               <!-- 本文 -->
               <v-card-text class="pt-4">
-                <div class="text-subtitle-1 text-medium-emphasis">{{ w.industry }}</div>
+                <div class="text-subtitle-1 font-weight-bold">{{ w.industry }}</div>
                 <h4 class="work-title mt-1">{{ w.title }}</h4>
 
                 <p class="work-summary mt-2">
@@ -263,10 +263,10 @@
     </section>
 
     <!-- ===== Contact セクション ===== -->
-    <!-- <section class="contact-section" id="contact">
+    <section class="contact-section" id="contact">
       <v-container>
-        <v-row justify="center" align="center" style="min-height: 70vh">
-          <v-col cols="12" md="8" lg="6" class="text-center">
+        <v-row justify="center" align="center" style="min-height: 0vh">
+          <!-- <v-col cols="12" md="8" lg="6" class="text-center">
             
 
             <h2 class="cta-title">まずは無料相談から</h2>
@@ -305,6 +305,7 @@
                     class="mb-6"
                   />
                   
+
                   <v-btn
                     type="submit"
                     size="x-large"
@@ -320,17 +321,16 @@
               </v-card-text>
             </v-card>
             
-          </v-col>
+          </v-col> -->
         </v-row>
       </v-container>
-    </section> -->
+    </section>
 
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from 'vue'
-useHead({ title: '株式会社Global Information Academy' })
 
 // レイアウト指定 ここを追加
 definePageMeta({
@@ -392,7 +392,7 @@ const works = [
   },
   {
     title: 'AI活用で社内業務を効率化＋EC/HP支援',
-    industry: '美容物販（化粧水等）',
+    industry: '美容用品商社',
     summary:
       '業務フローにAIを導入することで社内の定型業務を効率化。また、ブランドの価値が伝わるホームページ制作も支援し、運用しやすい体制へ。',
     outcomes: ['AI導入', '業務効率化', 'HP制作'],
@@ -410,7 +410,7 @@ const works = [
   },
   {
     title: '経営の見える化と仕組み化の伴走支援',
-    industry: '高圧電気工事（大阪メトロ等）',
+    industry: '高圧電気工事会社（大阪メトロ等）',
     summary:
       '上場企業と仕事されている中でも事務作業が煩雑であった。AI活用だけでなく、経営の効率化・見える化・役割設計など"仕組み化"を中心に伴走。',
     outcomes: ['見える化', '役割設計', '運営体制の最適化'],
@@ -419,7 +419,7 @@ const works = [
   },
   {
     title: '共同サービス構築に向けたDXの土台づくり',
-    industry: '公共工事（自衛隊関連等）',
+    industry: '公共工事会社（自衛隊関連等）',
     summary:
       '航空・海上自衛隊の案件等、公共工事を扱う会社のDX化。将来の共同サービス展開を見据え、アライアンスを組み、工事会社のシステム化を進行中。',
     outcomes: ['DX基盤', 'アライアンス', '共同サービス準備'],
@@ -794,7 +794,7 @@ const handleParallax = () => {
 
 /* ===== Contact セクション ===== */
 .contact-section {
-  padding: 120px 0;
+  padding: 0px 0;
   background: #0f1f33;
   color: white;
 }

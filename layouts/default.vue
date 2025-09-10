@@ -22,16 +22,16 @@
                 <!-- <a href="#contact" class="nav-link">お問い合わせ</a> -->
               </nav>
             </v-col>
-            <v-col cols="auto">
-              <!-- CTAボタン -->
-              <!-- <v-btn
+            <!-- <v-col cols="auto">
+
+              <v-btn
                 variant="flat"
                 class="cta-button"
                 @click="scrollToContact"
               >
                 無料相談する
-              </v-btn> -->
-            </v-col>
+              </v-btn>
+            </v-col> -->
           </v-row>
         </v-container>
       </header>
